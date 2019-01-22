@@ -25,11 +25,12 @@ class Song
   end
 
   def genre_count
-    genres.each do |k, v|
+    @@genres.each do |k, v|
 end
   end
 
   def artist_count
+    @@artists.each do |k, v|
   end
 
 
