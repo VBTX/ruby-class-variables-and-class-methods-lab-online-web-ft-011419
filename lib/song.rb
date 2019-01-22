@@ -34,7 +34,7 @@ class Song
           else
              counted[k] = count +1
            end
-    counted      
+    counted
 end
   end
 
