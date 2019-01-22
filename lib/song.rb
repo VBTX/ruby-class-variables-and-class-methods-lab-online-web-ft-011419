@@ -25,6 +25,7 @@ class Song
   end
 
   def genre_count
+    counted = {}
     @@genres.each do |k, v|
 end
   end
