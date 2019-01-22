@@ -31,6 +31,7 @@ class Song
       genres[k] = count + 1
       if genres[k] == 1
          genres[k] += 1
+       end
 end
 genres
   end
