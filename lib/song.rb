@@ -32,7 +32,7 @@ class Song
              count += 1
              genres[k] = count
           else
-             genres[k]+=1
+             genres[k] += 1
            end
 
 end
