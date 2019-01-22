@@ -26,7 +26,15 @@ class Song
 
   def genre_count
     counted = {}
-    @@genres.each do |k, v|
+    count = 0
+    @@genres.each do |k|
+          if counted[k] == 0
+             count += 1
+             counted[k] = count
+          else
+             counted[k] = count +1
+           end
+    counted      
 end
   end
 
