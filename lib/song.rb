@@ -49,8 +49,6 @@ genres
 end
 artists
   end
-  end
-end
 
 
 end
