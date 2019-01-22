@@ -31,7 +31,7 @@ class Song
       if genres.key?[k] == false
          genres[k] = count + 1
        else
-         genres[k]+=1
+         genres[k] += 1
        end
 end
 genres
