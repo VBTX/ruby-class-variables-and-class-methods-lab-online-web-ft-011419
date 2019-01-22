@@ -41,6 +41,5 @@ end
   def artist_count
     @@artists.each do |k, v|
   end
-
-
+end
 end
