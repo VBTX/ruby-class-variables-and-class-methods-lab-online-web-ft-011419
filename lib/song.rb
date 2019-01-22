@@ -25,7 +25,7 @@ class Song
   end
 
   def genre_count
-    counted = {}
+    artists = {}
     count = 0
     @@genres.each do |k|
           if counted[k] == 0
