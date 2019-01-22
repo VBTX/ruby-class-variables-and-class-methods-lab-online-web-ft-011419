@@ -37,7 +37,7 @@ end
 genres
   end
 
-  def artist_count
+  def self.artist_count
     artists = {}
     count = 0
     @@artists.each do |k|
