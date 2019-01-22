@@ -38,7 +38,19 @@ genres
   end
 
   def artist_count
-    @@artists.each do |k, v|
+    artists = {}
+    count = 0
+    @@artists.each do |k|
+      if artists.key?(k) == false
+         artists[k] = count + 1
+       else
+         artists[k] += 1
+       end
+end
+artists
+  end
   end
 end
+
+
 end
