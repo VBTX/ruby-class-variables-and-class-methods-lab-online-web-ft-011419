@@ -25,16 +25,16 @@ class Song
   end
 
   def genre_count
-    artists = {}
+    genres = {}
     count = 0
     @@genres.each do |k|
-          if artists[k] == 0
+          if genres[k] == 0
              count += 1
-             artists[k] = count
+             genres[k] = count
           else
-             artists[k] = count +1
+             genres[k] = count +1
            end
-    artists
+    genres
 end
   end
 
