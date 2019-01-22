@@ -28,7 +28,7 @@ class Song
     genres = {}
     count = 0
     @@genres.each do |k|
-          if genres[k] == 0
+          if genres[k] == 1
              count += 1
              genres[k] = count
           else
