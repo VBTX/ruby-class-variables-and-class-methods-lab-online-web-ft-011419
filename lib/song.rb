@@ -28,13 +28,13 @@ class Song
     artists = {}
     count = 0
     @@genres.each do |k|
-          if counted[k] == 0
+          if artists[k] == 0
              count += 1
-             counted[k] = count
+             artists[k] = count
           else
-             counted[k] = count +1
+             artists[k] = count +1
            end
-    counted
+    artists
 end
   end
 
